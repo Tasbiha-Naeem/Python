@@ -1,6 +1,6 @@
 #operators
-a=100;
-b=20;
+a=100
+b=20
 print(a+b)   #addition
 print(a-b)   #subtration
 print(a*b)   #multiplication
