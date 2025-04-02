@@ -26,6 +26,19 @@ print(my_tuple.count(1))
 #If the element is not found, it raises a ValueError.
 my_tuple = (10, 20, 30, 40, 50)
 print(my_tuple.index(30)) 
+#__add__():
+#This is an internal method used for concatenating two tuples (using the + operator).
+tuple1 = (1, 2)
+tuple2 = (3, 4)
+result = tuple1 + tuple2
+print(result)  # Output: (1, 2, 3, 4)
+#__mul__():
+#This is an internal method used for repeating a tuple (using the * operator).
+my_tuple = (1, 2)
+result = my_tuple * 3
+print(result)  # Output: (1, 2, 1, 2, 1, 2)
+
+
 
 
 
